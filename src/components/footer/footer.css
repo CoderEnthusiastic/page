@@ -1,0 +1,30 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1%;
+}
+
+.musicbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+
+.faqs {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.follow {
+    margin-top: 2%;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

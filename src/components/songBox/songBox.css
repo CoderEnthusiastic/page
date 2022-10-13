@@ -1,0 +1,42 @@
+.songBox {
+  border: 1px solid blue;
+  text-align: center;
+  margin: 4%;
+  margin-left: 5%;
+  background-color: #000;
+  color: #fff;
+  padding: 2%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.songDetails {
+  color: rgb(255, 255, 81);
+}
+
+.songBanner {
+  border-radius: 10px;
+  margin: 1%;
+}
+#btn {
+  margin-left: 5%;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5%;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition-timing-function: ease-out;
+  transition-duration: 200ms;
+  transition-delay: 10ms;
+
+}
+
+#btn:hover {
+  transform: scale(1.09);
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+}

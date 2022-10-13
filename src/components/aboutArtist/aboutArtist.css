@@ -1,0 +1,46 @@
+.ArtistBox {
+  display: flex;
+  margin: 4%;
+  margin-left: 5%;
+  padding: 2%;
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.text {
+  flex: 0.9;
+}
+
+.outerBox {
+  display: flex;
+}
+
+.socialMedia {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1%;
+  margin: 1%;
+}
+
+.musicPlatform {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 1%;
+  margin: 1%;
+}
+
+.speed1 {
+  border-radius: 10px;
+}
+#box {
+  transition-timing-function: ease-out;
+  transition-duration: 200ms;
+  transition-delay: 10ms;
+}
+
+#box:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.Header {
+  display: flex;
+  padding: 1%;
+  background-color: #000;
+  color: #fff;
+}
+
+.logoAndName {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.menuBar {
+  display: flex;
+  width: 28%;
+  justify-content: space-around;
+}
+
+.menu {
+  cursor: pointer;
+  padding: 2% 4%;
+  border-radius: 7px;
+  transition-timing-function: ease-out;
+  transition-duration: 150ms;
+  transition-delay: 10ms;
+}
+
+.menu:hover {
+  background-color: #fff;
+  color: #000;
+}
